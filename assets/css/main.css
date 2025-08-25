@@ -10810,4 +10810,15 @@ div.demo img {
   width: 70px;
 }
 
+@media (max-width: 767px) {
+  .back-to-top-wrapper {
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .whatsapp-btn {
+    right: 10px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
