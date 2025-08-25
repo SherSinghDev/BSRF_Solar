@@ -778,12 +778,7 @@ div.demo img {
   visibility: hidden;
 }
 
-@media (max-width: 767px) {
-  .back-to-top-wrapper {
-    right: 20px;
-    bottom: 20px;
-  }
-}
+
 
 .back-to-top-wrapper.back-to-top-btn-show {
   visibility: visible;
@@ -8730,8 +8725,8 @@ div.demo img {
   line-height: 0.7;
   text-transform: uppercase;
   background: url(../img/others/text-img.jpg);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-background-clip: text; */
   background-position: 0;
 }
 
@@ -9263,10 +9258,13 @@ div.demo img {
 }
 
 .tp-team-3-thumb img {
+  height: 350px;
   width: 100%;
   transition: 1.3s;
   border-radius: 10px;
 }
+
+
 
 .tp-team-3-content {
   position: absolute;
