@@ -9242,11 +9242,11 @@ div.demo img {
   }
 }
 
-.tp-team-3-item:hover .tp-team-3-content {
+/* .tp-team-3-item:hover .tp-team-3-content {
   bottom: -60px;
   opacity: 1;
   visibility: visible;
-}
+} */
 
 .tp-team-3-item:hover .tp-team-3-thumb img {
   transform: scale(1.1);
@@ -9272,8 +9272,8 @@ div.demo img {
   bottom: -40px;
   left: 0;
   right: 0;
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
   text-align: center;
   margin: auto;
   padding: 30px;
@@ -9319,9 +9319,9 @@ div.demo img {
   color: var(--tp-common-white);
 }
 
-.tp-team-3-title a:hover {
+/* .tp-team-3-title a:hover {
   color: var(--tp-theme-secondary);
-}
+} */
 
 .tp-team-4-item:hover .tp-team-4-social {
   right: 25px;
